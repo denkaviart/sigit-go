@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/denkaviart/sigit-go/cmd"
 
 func main() {
-	fmt.Println("Hi, all")
+	cmd.Execute()
 }
